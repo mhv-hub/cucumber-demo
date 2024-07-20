@@ -1,0 +1,8 @@
+id,name,excpected_count
+1,ABC,1
+
+
+select count(*)
+from c_cur
+where id = :id
+and name= :name
